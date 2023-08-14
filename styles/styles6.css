@@ -1,6 +1,6 @@
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -15,33 +15,9 @@ h1 {
     padding: 5px;
 }
 
-li{
-    font-family: 'Cabin', sans-serif;
-    font-size: 15px;
-    font-weight: bolder;
-    display: flex;
-    justify-content: center;
-    color: rgb(244, 241, 241);
-    text-shadow: black;
-    padding-top: 15px;
-}
-    
-#banner{
-    width: 100%;
-    height: 240px;
-    object-fit: cover;
-    object-position: 0% 30%;
-}
 
-header{
-    width: auto;
-    height:auto ;
-    max-width:96%;
-    padding: 5px;
 
-}
-
-div.container {
+div.container{
     width: 100%;
     height: 250px;
     background-color: #535252;
@@ -53,24 +29,13 @@ div.container {
     object-position: 0% 20%;
 }
 
-div.contact{
-    max-width: 100%;
-    height: 100%;
-    min-height: 1050px;
-    margin: 0 auto;
-    padding: 1rem;
-    background-image: url('');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 0% 20%;
-    object-position: center;
-}
 
 nav {
-    background-color:#680202;
+    background-color: #680202;
     padding: 0.5rem;
     text-align: center;
 }
+
 nav a {
     color: white;
     text-decoration: none;
@@ -82,14 +47,52 @@ nav a:hover {
     color: #ffd700; /* Cambiar el color al pasar el cursor sobre el enlace */
 }
 
+div.regis{
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: #535252;
+    background-color:  #53525244;
+    color: white;
+    align-content: space-around;
+}
+
+form{
+    align-content: space-between;
+}
+
+
+
 
 main{
+    background: linear-gradient(70deg, rgb(16, 16, 17), rgb(88, 2, 2));
     width: 100%;
     height: auto;
-    background: linear-gradient(70deg, rgb(16, 16, 17), rgb(88, 2, 2));
+
+
+}
+label{
+    color: white;
 }
 
-div.contact{ 
-    align-items: flex-start;
-    padding-top: 20px;
-}
+input.button {
+    padding: 0.9em 1.8em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: black;
+    border: 2px solid rgb(121, 5, 5);
+    font-size: 10px;
+    position: center;
+    font-family: inherit;
+    background:  #ff0;
+   }
+   
+  
+   
+   
+   
+  
+   
+   

@@ -58,12 +58,6 @@ div.regis{
     align-content: space-around;
 }
 
-form{
-    align-content: space-between;
-}
-
-
-
 
 main{
     background: linear-gradient(70deg, rgb(16, 16, 17), rgb(88, 2, 2));
@@ -74,6 +68,8 @@ main{
 }
 label{
     color: white;
+    padding: 15px;
+    
 }
 
 input.button {
@@ -84,15 +80,40 @@ input.button {
     color: black;
     border: 2px solid rgb(121, 5, 5);
     font-size: 10px;
-    position: center;
     font-family: inherit;
     background:  #ff0;
-   }
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+form{
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
    
-  
    
+  p{
+    font-size: 20px;
+    padding: 10px;
+  }
    
-   
-  
+fieldset{
+    width: auto;
+    height: auto;
+    align-content: space-around;
+    justify-content: flex-start;
+}
+
+h2{
+    padding: 15px;
+}
+
+input#date{
+    width: auto;
+    height: auto;
+
+}
    
    
